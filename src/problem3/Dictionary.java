@@ -10,6 +10,6 @@ public class Dictionary extends Document{
     @Override
     public String toString(){
         String str=super.toString();
-        return str+String.format("The Dictionary's language : %s\n", this.language);
+        return str+String.format(" The Dictionary's language : %s\n", this.language);
     }
 }

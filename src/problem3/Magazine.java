@@ -12,6 +12,6 @@ public class Magazine extends Document{
     @Override
     public String toString(){
         String str=super.toString();
-        return str+String.format("The Magazine's release month : %s\nThe Magazine's release year : %d", this.month,this.year);
+        return str+String.format(" The Magazine's release month : %s\nThe Magazine's release year : %d", this.month,this.year);
     }
 }

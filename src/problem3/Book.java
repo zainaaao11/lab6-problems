@@ -12,7 +12,7 @@ public class Book extends Document{
     @Override
     public String toString(){
         String str=super.toString();
-        return str+String.format("The Book's author : %s\nThe Book's pages number : %d", this.author,this.nbrPages);
+        return str+String.format(" The Book's author : %s\nThe Book's pages number : %d", this.author,this.nbrPages);
 
     }
 
